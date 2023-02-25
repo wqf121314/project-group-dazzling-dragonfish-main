@@ -1,0 +1,93 @@
+.timelinePageContainer {
+  width: 90%;
+  margin: 10px auto 10px auto;
+}
+
+.imgContainer {
+  /*width: 60em;
+  height: 17em;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 25px;*/
+  display: flex;
+  align-items: center;
+  /*text-align: center;
+  vertical-align: middle;*/
+}
+.imgContainer img {
+  max-width: 60%;
+  max-height: 60%;
+  display: block;
+  margin: auto;
+  border-radius: 8px;
+}
+.card{
+  border-radius: 8px;
+  background-color: rgb(247, 247, 247);
+}
+.eventTime{
+  font-size: medium;
+  color: rgb(120, 120, 120);
+  white-space: nowrap;
+}
+.eventCategory{
+  font-size: medium;
+  color: rgb(120, 120, 120);
+  float: right;
+}
+.eventGroupImgContainer {
+  width: 90%;
+  height: 20em;
+  /*  border: 1px solid rgb(0, 0, 0);
+  border-radius: 25px;*/
+  display: table-cell;
+  vertical-align: middle;
+}
+.eventGroupImgContainer img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: auto;
+}
+
+.site-layout-content {
+  min-height: 280px;
+  padding: 24px;
+  background: #fff;
+  align-items: center;
+}
+.timelineNewsTitle{
+  font-size: 20px;
+  font-weight: bold;
+}
+.timelineNewsHeadline{
+  font-size: 16px;
+}
+.eventGroupTitle{
+  /* font-size: 2em;
+  font-weight: bold; */
+  /* background-color:rgb(0, 174, 255); */
+  size: small;
+  border-radius: 8px;
+}
+.eventGroupTitleFont{
+  font-size: 15pt;
+  text-align: center;
+  font-weight: 800;
+}
+.eventGroupDescription {
+  font-size: 18px;
+}
+
+.ant-timeline-item-tail {
+  border-left: 4px solid #001b35;
+  top: 30px;
+  left: 6px;
+}
+
+.ant-timeline-item-head {
+  top: 15px;
+  width: 18px;
+  height: 18px;
+  border: 4px solid transparent;
+  border-color: #001529;
+}

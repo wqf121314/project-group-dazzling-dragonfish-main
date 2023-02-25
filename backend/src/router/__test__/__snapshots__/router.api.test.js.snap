@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GET /api checking each version health: /api/health  1`] = `
+Object {
+  "code": 0,
+  "data": "Backend Server is running",
+  "msg": "",
+}
+`;
+
+exports[`GET /api checking each version health: /api/v1/health  1`] = `
+Object {
+  "code": 0,
+  "data": "Backend Server V1 is running",
+  "msg": "",
+}
+`;
+
+exports[`GET /api checking each version health: /api/v2/health  1`] = `
+Object {
+  "code": 0,
+  "data": "Backend Server V2 is running",
+  "msg": "",
+}
+`;

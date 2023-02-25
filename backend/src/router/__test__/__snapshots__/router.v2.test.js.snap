@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`check /api/v2/event interface and Empty data Exception when checking  GET /api/v2/:id  1`] = `
+Object {
+  "code": 2,
+  "data": null,
+  "msg": "No data obtained.",
+}
+`;
+
+exports[`check /api/v2/event interface and Empty data Exception when checking  GET /api/v2/event  1`] = `
+Object {
+  "code": 2,
+  "data": null,
+  "msg": "No data obtained.",
+}
+`;
+
+exports[`check /api/v2/eventgroup interface and Empty data Exception when checking  Get /api/v2/eventgroup/:id  1`] = `
+Object {
+  "code": 2,
+  "data": null,
+  "msg": "No data obtained.",
+}
+`;
+
+exports[`check /api/v2/eventgroup interface and Empty data Exception when checking  Get /api/v2/eventgroup/recommend  1`] = `
+Object {
+  "code": 1,
+  "data": null,
+  "msg": "No data obtained.",
+}
+`;
+
+exports[`check /api/v2/eventgroup interface and Empty data Exception when checking  Get /api/v2/eventgroup/recommend/:category  1`] = `
+Object {
+  "code": 2,
+  "data": null,
+  "msg": "No data obtained.",
+}
+`;
+
+exports[`check /api/v2/eventgroup interface and Empty data Exception when checking  Post /api/v2/eventgroup/recommend don not send any Data 1`] = `
+Object {
+  "code": 1,
+  "data": null,
+  "msg": "count:undefined is NOT in compliance with the rules.",
+}
+`;
+
+exports[`check /api/v2/eventgroup interface and Empty data Exception when checking  Post /api/v2/eventgroup/recommend send {count: 10}  1`] = `
+Object {
+  "code": 2,
+  "data": null,
+  "msg": "No data obtained.",
+}
+`;
+
+exports[`check /api/v2/eventgroup interface and Empty data Exception when checking  Post /api/v2/eventgroup/recommend send full data 1`] = `
+Object {
+  "code": 2,
+  "data": null,
+  "msg": "No data obtained.",
+}
+`;
+
+exports[`check /api/v2/eventgroup interface and Empty data Exception when checking  Post /api/v2/eventgroup/recommend send nonexistent data 1`] = `
+Object {
+  "code": 2,
+  "data": null,
+  "msg": "No data obtained.",
+}
+`;
+
+exports[`check /api/v2/eventgroup interface and exist data check nonexistent id of the fields returned by Get /api/v2/eventgroup/:id  1`] = `
+Object {
+  "code": 2,
+  "data": null,
+  "msg": "No data obtained.",
+}
+`;
+
+exports[`check /api/v2/eventgroup interface and exist data check the legitimacy of the fields returned by GET /api/v2/eventgroup/recommend/:category nonexistent category: aaaa 1`] = `
+Object {
+  "code": 1,
+  "data": null,
+  "msg": "category:aaaa does not exist in EventCategory array.",
+}
+`;
+
+exports[`check /api/v2/eventgroup interface and exist data check the legitimacy of the fields returned by Post /api/v2/eventgroup/recommend but don not send any Data   1`] = `
+Object {
+  "code": 1,
+  "data": null,
+  "msg": "count:undefined is NOT in compliance with the rules.",
+}
+`;

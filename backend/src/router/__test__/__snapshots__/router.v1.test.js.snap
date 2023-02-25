@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`check /api/v1/event interface and Empty data Exception when checking  GET /api/v1/:id  1`] = `
+Object {
+  "code": 2,
+  "data": null,
+  "msg": "No data obtained.",
+}
+`;
+
+exports[`check /api/v1/event interface and Empty data Exception when checking  GET /api/v1/event  1`] = `
+Object {
+  "code": 2,
+  "data": null,
+  "msg": "No data obtained.",
+}
+`;
+
+exports[`check /api/v1/eventgroup interface and Empty data Exception when checking  GET /api/v1/eventgroup/recommend  1`] = `
+Object {
+  "code": 2,
+  "data": null,
+  "msg": "No data obtained.",
+}
+`;
+
+exports[`check /api/v1/eventgroup interface and Empty data Exception when checking  Get /api/v1/eventgroup/:id  1`] = `
+Object {
+  "code": 1,
+  "data": null,
+  "msg": "Cast to ObjectId failed for value \\"11111\\" (type string) at path \\"_id\\" for model \\"EventGroup\\"",
+}
+`;
+
+exports[`check /api/v1/eventgroup interface and Empty data Exception when checking  Post /api/v1/eventgroup/recommend don not send any Data   1`] = `
+Object {
+  "code": 1,
+  "data": null,
+  "msg": "count:undefined is NOT in compliance with the rules.",
+}
+`;
+
+exports[`check /api/v1/eventgroup interface and Empty data Exception when checking  Post /api/v1/eventgroup/recommend send {count: 10}  1`] = `
+Object {
+  "code": 3,
+  "data": null,
+  "msg": "No data obtained.",
+}
+`;
+
+exports[`check /api/v1/eventgroup interface and Empty data Exception when checking  Post /api/v1/eventgroup/recommend send nonexistent data  {query: '111', count: 10}  1`] = `
+Object {
+  "code": 3,
+  "data": null,
+  "msg": "No data obtained.",
+}
+`;
+
+exports[`check /api/v1/eventgroup interface and exist data check the legitimacy of the fields returned by Post /api/v1/eventgroup/recommend but don not send any Data   1`] = `
+Object {
+  "code": 1,
+  "data": null,
+  "msg": "count:undefined is NOT in compliance with the rules.",
+}
+`;
+
+exports[`check /api/v1/eventgroup interface and exist data check the legitimacy of the fields returned by Post /api/v1/eventgroup/recommend send {count: 0}  1`] = `
+Object {
+  "code": 4,
+  "data": null,
+  "msg": "count:0 is EMPTY in compliance with the rules.",
+}
+`;

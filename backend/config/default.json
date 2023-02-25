@@ -1,0 +1,79 @@
+{
+  "App": {
+    "host": "localhost",
+    "port": 3001
+  },
+  "Router": {
+    "apiPrefix": "/api"
+  },
+  "Mongodb": {
+    "host": "127.0.0.1",
+    "dbName": "dragonFish",
+    "port": 27017,
+    "config": {
+      "useNewUrlParser": true,
+      "useUnifiedTopology": true,
+      "maxPoolSize": 10,
+      "serverSelectionTimeoutMS": 3000,
+      "socketTimeoutMS": 1000
+    }
+  },
+  "Log4js": {
+    "appenders": {
+      "console": {
+        "type": "console"
+      },
+      "info": {
+        "type": "dateFile",
+        "filename": "logs/all-logs",
+        "pattern": "yyyy-MM-dd-hh.log",
+        "alwaysIncludePattern": true
+      },
+      "warn": {
+        "type": "dateFile",
+        "filename": "logs/warn",
+        "pattern": "yyyy-MM-dd-hh.log",
+        "alwaysIncludePattern": true
+      },
+      "error": {
+        "type": "dateFile",
+        "filename": "logs/error",
+        "pattern": "yyyy-MM-dd-hh.log",
+        "alwaysIncludePattern": true
+      }
+    },
+    "categories": {
+      "default": {
+        "appenders": [
+          "console"
+        ],
+        "level": "debug"
+      },
+      "info": {
+        "appenders": [
+          "info",
+          "console"
+        ],
+        "level": "info"
+      },
+      "warn": {
+        "appenders": [
+          "warn",
+          "console"
+        ],
+        "level": "warn"
+      },
+      "error": {
+        "appenders": [
+          "error",
+          "console"
+        ],
+        "level": "error"
+      }
+    }
+  },
+  "APIKey": {
+    "newsAPI": "1878accf0016491999c351b3ea013957",
+    "unsplash": "x8MU8dxLuPZFRFMGnCZJBB91-QOzaD6PBesSOwWAh5g"
+  }
+}

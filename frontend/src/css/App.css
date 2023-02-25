@@ -1,0 +1,192 @@
+
+.logo {
+  float: left;
+  width: 150px;
+  height: 31px;
+  color: #fff;
+  font-weight: bolder;
+}
+
+.header {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+
+.menu {
+  font-weight: bolder;
+}
+
+.barPosition {
+  display: block;
+  position: relative;
+  /*top: 10px;*/
+  margin: 5px auto 10px auto;
+}
+
+.searchBar {
+  display: flex;
+  max-width: 60%;
+  margin: 10px auto 10px auto;
+  padding: 5px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.searchBar .ant-select-selector {
+  flex-grow: 3;
+  display: block;
+  width: 80%;
+  margin: 5px auto 5px auto;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.searchBar button {
+  height: 100%;
+  border: 0px;
+  background-color: #fff;
+  font-size: 25px;
+}
+
+.carouselContent {
+  position: relative;
+  height: 550px;
+}
+
+.carouselContent img {
+  max-width: 100%;
+	height: auto;
+  position: absolute;  
+  top: 0;  
+  bottom: 0;  
+  left: 0;  
+  right: 0;  
+  margin: auto;
+}
+
+.carouselContent h1 {
+  position: absolute;
+  color: #fff;
+  text-shadow: 0.1em 0.1em 0.2em lightslategray;
+  font-size: 40px;
+  bottom: 50px;
+  left: 40px;
+}
+
+.newsTopics {
+  max-width: 80%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.newsTopics h1 {
+  font-size: 28px;
+  font-weight: bolder;
+}
+
+.newsTopics .resultMain {
+  height: 650px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.newsTopics .resultMain .ant-card-cover {
+  width: 100%;
+  height: 80%;
+  border-radius: 8px 8px 0 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.newsTopics .resultMain img { 
+  width: 100%;
+  height: auto;
+  position: absolute;  
+  top: 0;  
+  bottom: 0;  
+  left: 0;  
+  right: 0;
+  margin: auto;
+}
+
+.newsTopics .cards {
+  width: 380px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.newsTopics img {
+  height: 250px;
+  border-radius: 8px 8px 0px 0px;
+}
+
+.newsTopics .ant-card-meta-detail {
+  height: 100px;
+}
+
+.newsTopics .ant-card-meta-title {
+  font-size: 18px;
+  text-overflow: ellipsis;
+}
+
+.newsTopics .ant-card-meta-description {
+  height: 50px;
+  white-space: normal;
+  text-overflow: ellipsis;
+}
+
+.footer {
+  width: 100%;
+  margin: auto;
+  margin-top: 20px;
+  background-color: #001529;
+  text-align: center;
+}
+
+.footer h3 {
+  color: #fff;
+}
+
+.footer a {
+  color: #fff;
+  font-size: 30px;
+  margin: 10px 20px 0px 20px;
+}
+
+.backTop {
+  font-size: 50px;
+  color: rgb(202, 200, 200);
+}
+
+.ant-result-subtitle {
+  font-size: 18px;
+}
+
+.ant-col-xl-8 {
+  max-width: none;
+}
+
+.ant-col-8 {
+  max-width: none;
+}
+
+@media screen and (max-width: 576px ){
+  .carouselContent h1 {
+    position: absolute;
+  color: #fff;
+  text-shadow: 0.1em 0.1em 0.2em lightslategray;
+  font-size: 25px;
+  bottom: 90px;
+  left: 40px;
+  }
+}
+
+@media screen and (max-width: 987px) {
+  .newsTopics .resultMain {
+    height: 320px;
+    width: 380px;
+    border-radius: 8px;
+    margin-bottom: 80px;
+  }
+}

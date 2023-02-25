@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checking the main interface Get not exit request, interface: /  1`] = `
+Object {
+  "code": 1,
+  "msg": "URL is not exist!!",
+}
+`;
+
+exports[`Checking the main interface Get not exit request, interface: /index   1`] = `
+Object {
+  "code": 1,
+  "msg": "URL is not exist!!",
+}
+`;
+
+exports[`Checking the main interface Post not exit request, interface: /  1`] = `
+Object {
+  "code": 1,
+  "msg": "URL is not exist!!",
+}
+`;
+
+exports[`Checking the main interface Post not exit request, interface: /index   1`] = `
+Object {
+  "code": 1,
+  "msg": "URL is not exist!!",
+}
+`;
+
+exports[`GET /api check error interface: /api  1`] = `
+Object {
+  "code": 1,
+  "msg": "URL is not exist!!",
+}
+`;
+
+exports[`GET /api checking for api/health 1`] = `
+Object {
+  "code": 0,
+  "data": "Backend Server is running",
+  "msg": "",
+}
+`;
+
+exports[`GET /api/v1 check error interface: /api/v1  1`] = `
+Object {
+  "code": 1,
+  "msg": "URL is not exist!!",
+}
+`;
+
+exports[`GET /api/v1 check error interface: /api/v1/index  1`] = `
+Object {
+  "code": 1,
+  "msg": "URL is not exist!!",
+}
+`;
+
+exports[`GET /api/v1 checking for api/v1/health 1`] = `
+Object {
+  "code": 0,
+  "data": "Backend Server V1 is running",
+  "msg": "",
+}
+`;
+
+exports[`GET /api/v2 check error interface: /api/v2  1`] = `
+Object {
+  "code": 1,
+  "msg": "URL is not exist!!",
+}
+`;
+
+exports[`GET /api/v2 check error interface: /api/v2/index  1`] = `
+Object {
+  "code": 1,
+  "msg": "URL is not exist!!",
+}
+`;
+
+exports[`GET /api/v2 checking for api/v2/health 1`] = `
+Object {
+  "code": 0,
+  "data": "Backend Server V2 is running",
+  "msg": "",
+}
+`;
